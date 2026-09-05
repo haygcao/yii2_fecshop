@@ -30,8 +30,8 @@ class Cart extends Service
 {
     /**
      * 将某个产品加入到购物车中
-     * @param array $item
-     * example:
+     * @param $item array 
+     * example: 代码示例
      * $item = [
      *		'product_id' 		=> 22222,
      *		'custom_option_sku' => ['color'=>'red','size'=>'l'],
